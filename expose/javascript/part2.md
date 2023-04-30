@@ -79,4 +79,8 @@ Reason: For Boolean(x), if x has any valid value, it's true. Else, it's false. I
 16. Loops
 See part2-question16.js
 
-Part 7: 
+17. Functions
+The result will be newArr becomes [2, 4, 6].
+Reason: When we call modifyArray, we pass in an array, [1, 2, 3], and a callback function which will multiply it's parameter number by 2. The for loop in modifyArray iterate through the elements in input array one by one, then push the result of calling call-back function on newArr. First iteration, it takes first element, 1, and multiply by 2 then push it on newArr. So we have [2] for our newArr. Second iteration, it takes second element, 2, and multiply by 2 then push it on newArr. So we have [2, 4] for our newArr. Third iteration, it takes third element, 3, and multiply by 2 then push it on newArr. So we have [2, 4, 6] for our newArr. Then for loop endsince it reached the end of the input array. Then the function return the result newArr, which is [2, 4, 6].
+
+18. 
