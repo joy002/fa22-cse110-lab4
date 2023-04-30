@@ -86,4 +86,4 @@ Reason: When we call modifyArray, we pass in an array, [1, 2, 3], and a callback
 18. setInterval(), setTimeout(), clearTimeout()
 See part2-question18.js
 
-19. Output: 
+19. Output: 1, 4, 3, 2
