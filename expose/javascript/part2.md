@@ -1,3 +1,4 @@
+12. Data Type
 A. Accessing the value of the name property in the student object:
    student.name
 
@@ -13,7 +14,7 @@ D. Accessing the name property of the object in the Favorite Teacher property in
 E. Access index zero in the array of the courseLoad property of the student object
    student.courseLoad[0]
 
-Part 3: Arithmetic
+13. Arithmetic
 ‘3’ + 2
 Output: 32
 Reason: It convert 2 to the string '2', then concatenate '3' with '2'. We get 32 in String form.
@@ -46,7 +47,7 @@ Reason: It convert undefined to the string 'undefined', then concatenate '3' wit
 Output: NaN
 Reason: Since minus(-) indicate arithmetic subtraction between two numerical values. It convert '3' to the number 3, then it try to convert undefined to a numerical value, but failed. Therefore, the result is NaN.
 
-Part 4: Comparison
+14. Comparison
 ‘2’ > 1
 Output: true
 Reason: It convert '2' to the number 2, then compare "if 1 is smaller than 2" or the other way if 2 is greater than 1". We get true.
@@ -71,9 +72,11 @@ true === Boolean(2)
 Output: true
 Reason: For Boolean(x), if x has any valid value, it's true. Else, it's false. In this case(Boolean(2)), 2 is a valid value. Therefore, Boolean(2) is true. We compare true with true. Since they have the same type, boolean, and are both true, we get true.
 
-Part 5: Explain the difference between the == and === operators.
+15. Explain the difference between the == and === operators.
 ==, non-strict equality operator, compare the equality of two variable after any neccessary conversion.
 ===, strict equality operator, checks the equality without any type conversion.
 
-Part 6: Loops
+16. Loops
+See part2-question16.js
 
+Part 7: 

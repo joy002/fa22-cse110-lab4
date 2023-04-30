@@ -4,4 +4,4 @@
 // console.log((2 == '2') + ', type: '+typeof(2=='2'));
 // console.log((2 === '2') + ', type: '+typeof(2==='2'));
 // console.log((true == 2) + ', type: '+typeof(true==2));
-console.log((true === Boolean(2)) + ', type: '+typeof(true===Boolean(2)));
+// console.log((true === Boolean(2)) + ', type: '+typeof(true===Boolean(2)));
