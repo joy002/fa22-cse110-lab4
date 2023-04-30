@@ -1,6 +1,6 @@
-1. line 9 printed: 20
-2. line 13 printed: 20
-3. 
-4. 
-5. 
-6. 
+1. Line 9 printed: 20
+2. Line 13 printed: 20
+3. Line 9 printed: 20
+4. Line 13 gives a ReferenceError indicating result is not defined. This happened because we declare result using let. The variable is only accessible in the block(if in this case) when it is declared using Let. Therefore, when we try to reference result in different block(else block), it give us the reference error.
+5. Line 9 did not print because of the TypeError on previous line(line 7). Since we declare result variable using const, it prevent reassigning the variable which means that "result=num1+num2" is not valid. If the reassign line(line 7) is not there then it will print 0.
+6. Line 13 also did not print because it is in the different block. The variable, result, was declared in if-block, but the print statement is in else-block. Since const only gives its variable block scope, it is not possible to access it in other block. Therefore, even if the TypeError did not occur previously, this line will still report an error(referenceError).
